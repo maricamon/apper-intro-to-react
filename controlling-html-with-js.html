@@ -15,8 +15,8 @@
       <button class='btn' id='list-btn' onclick='addToList();'>
         Add To List
       </button>
-      <button class='btn' id='rem-btn' onclick='removeToList();'>
-        Remove To List
+      <button class='btn' id='rem-btn' onclick='removeFromList();'>
+        Remove From List
       </button>
     </div>
 
@@ -47,7 +47,7 @@
         document.getElementById('list-input').value = ''
       }
       
-      function removeToList() {
+      function removeFromList() {
         var list = document.getElementById('list');
         
         // Remove highlighted element
